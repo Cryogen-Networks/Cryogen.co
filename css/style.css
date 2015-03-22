@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_a11132
 a.navbar-brand img {
     height: 35px;
     width: 35px;
@@ -12,4 +13,92 @@ div img {
 
 body {
     background-image: url('biome_map.png');
+=======
+.container-fluid {
+background-color: #474747;
+}
+
+body {
+  background-color: #575757;
+  color: #474747;
+}
+
+.avatar {
+  height: 15px;
+}
+
+a.navbar-brand img {
+    height: 35px;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #fff !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+color: cornflowerblue !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:focus {
+color: white !important;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+background-color: #A0A8E5 !important;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+color: white !important;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+color: cornflowerblue !important;
+}
+
+.navbar-nav>li>.dropdown-menu {
+background-color: #333;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+background-color: #474747 !important;
+}
+
+a.navbar-brand img {
+height: 55px;
+position: relative;
+top: -8.5px;
+left: -8.5px;
+}
+
+.form-control {
+background-color: #333 !important;
+border: 1px solid #333 !important;
+}
+
+.btn-default {
+color: #999 !important;
+background-color: #333 !important;
+border: 1px solid #333 !important;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+background-color: #747474 !important;
+border: 1px solid #747474 !important;
+color: white !important;
+}
+
+.form-control:focus {
+color: white !important;
+}
+
+.navbar-fixed-bottom {
+background-color: #474747;
+color: #999;
+}
+
+.footer-text {
+position: relative;
+top: 15px;
+left: 10px;
+>>>>>>> .merge_file_a10420
 }
