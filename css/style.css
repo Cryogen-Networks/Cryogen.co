@@ -8,6 +8,7 @@ div img {
 
 .navbar-header {
     background: url('../img/navbar.jpg');
+	width: 100%;
 }
 .container-fluid {
     background-color: #474747;
