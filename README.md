@@ -1,9 +1,7 @@
-# Cryogen.co
+# Cryogen Website
 
-This repo is for the development of the Cryogen Networks website. (Somebody else add more?)
+This repo is for the development of the Cryogen website.
 
-### Plans
+## Link?
 
-- Get basic layout finished
-- Start nav bar
-- Determine font and theme colors
+[Link](http://cryogen-networks.github.io/Cryogen.co/)
