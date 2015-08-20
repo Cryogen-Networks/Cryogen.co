@@ -1,87 +1,34 @@
-.container-fluid {
-background-color: #474747;
+body
+{
+  background-image: url('/img/landscape_v7.png');
+  background-size: cover 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-body {
-  background-color: #575757;
-  color: #474747;
+.content .logo {
+  height: 100vh;
+  text-align: center;
 }
 
-.avatar {
-  height: 15px;
+.content .logo span {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
-a.navbar-brand img {
-    height: 35px;
+.content .logo img {
+    vertical-align: middle;
+  height: 50rem;
 }
 
-.navbar-default .navbar-nav>li>a {
-color: #fff !important;
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-color: cornflowerblue !important;
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:focus {
-color: white !important;
-}
-
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-background-color: #A0A8E5 !important;
-}
-
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-color: white !important;
-}
-
-.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-color: cornflowerblue !important;
-}
-
-.navbar-nav>li>.dropdown-menu {
-background-color: #333;
-}
-
-.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-background-color: #474747 !important;
-}
-
-a.navbar-brand img {
-height: 55px;
-position: relative;
-top: -8.5px;
-left: -8.5px;
-}
-
-.form-control {
-background-color: #333 !important;
-border: 1px solid #333 !important;
-}
-
-.btn-default {
-color: #999 !important;
-background-color: #333 !important;
-border: 1px solid #333 !important;
-}
-
-.btn.focus, .btn:focus, .btn:hover {
-background-color: #747474 !important;
-border: 1px solid #747474 !important;
-color: white !important;
-}
-
-.form-control:focus {
-color: white !important;
-}
-
-.navbar-fixed-bottom {
-background-color: #474747;
-color: #999;
-}
-
-.footer-text {
-position: relative;
-top: 15px;
-left: 10px;
+.nav
+{
+  width: 100%;
+  height: 20rem;
+    background-image: url('/img/navbar.png');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: repeat-x;
 }
