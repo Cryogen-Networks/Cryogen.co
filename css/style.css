@@ -1,4 +1,4 @@
-	@import url(https://fonts.googleapis.com/css?family=Tillana:800);
+  @import url(https://fonts.googleapis.com/css?family=Tillana:800);
 body
 {
   background-image: url('/img/landscape_v7.png');
@@ -26,8 +26,8 @@ body
 }
 
 .top .logo img {
-	vertical-align: middle;
-  	height: 35rem;
+  vertical-align: middle;
+    height: 35rem;
 }
 
 .nav
@@ -67,11 +67,11 @@ font-family: 'Tillana', cursive;
 
 .content {
   color: #fff;
-	height: auto;
+  height: auto;
 }
 
 .feed {
-	float: left;
+  float: left;
   width: 70%;
 }
 
@@ -85,8 +85,8 @@ font-family: 'Tillana', cursive;
 
 
 .twitter {
-	float: right;
-	width: 30%;
+  float: right;
+  width: 30%;
   padding: 2rem;
 }
 
