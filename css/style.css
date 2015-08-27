@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Tillana:800);
+	@import url(https://fonts.googleapis.com/css?family=Tillana:800);
 body
 {
   background-image: url('/img/landscape_v7.png');
@@ -8,19 +8,24 @@ body
   background-repeat: no-repeat;
 }
 
-.content .logo {
+.top
+{
+  min-height: 100vh;
+}
+
+.top .logo {
   height: 100%;
   width: 100%;
   text-align: center;
 }
 
-.content .logo span {
+.top .logo span {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
-.content .logo img {
+.top .logo img {
 	vertical-align: middle;
   	height: 35rem;
 }
@@ -58,4 +63,38 @@ font-family: 'Tillana', cursive;
 .nav ul li a:hover
 {
   text-decoration: none;
+}
+
+.content {
+  color: #fff;
+	height: auto;
+}
+
+.feed {
+	float: left;
+  width: 70%;
+}
+
+.feed .post
+{
+  margin: 2rem;
+  background-color: #FEFCFF;
+  color: #000;
+  padding: 1rem;
+}
+
+
+.twitter {
+	float: right;
+	width: 30%;
+  padding: 2rem;
+}
+
+.timeline
+{
+  border-radius: 0 !important;
+}
+.twitterContainer
+{
+  background-color: #fff;
 }
