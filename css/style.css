@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Tillana:800);
 body
 {
   background-image: url('/img/landscape_v7.png');
@@ -8,7 +9,8 @@ body
 }
 
 .content .logo {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   text-align: center;
 }
 
@@ -19,8 +21,8 @@ body
 }
 
 .content .logo img {
-    vertical-align: middle;
-  height: 50rem;
+	vertical-align: middle;
+  	height: 35rem;
 }
 
 .nav
@@ -31,4 +33,29 @@ body
   background-size: auto 100%;
   background-position: center;
   background-repeat: repeat-x;
+}
+
+.nav ul
+{
+  list-style-type: none;
+}
+
+.nav ul li
+{
+  background-image: url('/img/brick.png');
+  background-size: 100% 100%;
+  padding: 1rem 3rem;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+}
+.nav ul li a
+{
+  color: #000;
+  font-weight: 800;
+font-family: 'Tillana', cursive;
+}
+.nav ul li a:hover
+{
+  text-decoration: none;
 }
