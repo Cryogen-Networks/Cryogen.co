@@ -1,5 +1,5 @@
 
-var forum = window.location.protocol + '//' + window.location.host;
+var forum = location.origin + location.pathname;
 
 window.cryogen.controller('PostsController', ['$http', function($http) {
 	var that = this;
