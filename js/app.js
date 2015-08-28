@@ -1,4 +1,4 @@
-angular.module('cryogen', ['ngRoute'])
+window.cryogen = angular.module('cryogen', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider){
 	$routeProvider.when('/', {
 		templateUrl: 'views/home.html'
