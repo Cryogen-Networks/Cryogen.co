@@ -1,24 +1,19 @@
+<!--(C) Copyright 2015 Cryogen Networks. All Rights Reserved.-->
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Cryogen Networks</title>
-	<link rel="icon" type="image/png" href="img/favicon.png">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <!-- TODO: Navbar with brand -->
-        <!-- TODO: Background: img/landscape_v7.png -->
-        <!-- TODO: Content container -->
-            <!--[if lt IE 9]>
-                <noscript>Please use an updated browser, Such as <a src="https://chrome.google.com">Google Chrome</a> or <a src="mozilla.org">Mozilla Firefox</a>. Thank You.</noscript>
-            <![endif]-->
-    </body>
-    <!-- TODO: Footer -->
-    <footer></footer>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body ng-app="cryogen">
+  <div ng-view></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/directives/navbar.js"></script>
+  <script src="js/controllers/posts.js"></script>
+</body>
 </html>

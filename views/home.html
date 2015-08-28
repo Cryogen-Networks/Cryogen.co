@@ -1,0 +1,60 @@
+<div class="home">
+  <div class="top">
+  <nav-bar></nav-bar>
+  <div class="logo">
+    <span></span>
+    <img src="img/logo.png" class="center">
+  </div>
+</div>
+<div class="topContentDivide">
+</div>
+<div class="content container-fluid">
+  <div class="main row">
+    <div class="feed col-sm-12 col-md-8" ng-controller="PostsController as postctrl">
+      <div class="post" ng-repeat="post in postctrl.posts">
+        <h1 class="title">
+        {{post.title}}
+        </h1>
+        <h4 class="featuredText">
+        {{post.excerpt}}
+        </h4>
+        <a ng-href="{{ post.link }}">Read more...</a>
+      </div>
+    </div>
+    <div class="twitter col-sm-12 col-md-4">
+      <div class="twitterContainer">
+        <a class="twitter-timeline" href="https://twitter.com/hashtag/crygenMC" data-widget-id="545621575169761280" data-chrome="noheader noscrollbar transparent noborders">#cryogenMC Tweets</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
+    <div class="statsContainer col-sm-12">
+      <div class="stats">
+        <ul class="statsList">
+          <li>
+            <p class="key">Power level</p>
+            <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span>
+            <p class="value">Over 9000</p>
+          </li>
+          <li>
+            <p class="key">Challenges accepted</p>
+            <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+            <p class="value">Over 9000</p>
+          </li>
+          <li>
+            <p class="key">Power level</p>
+            <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span>
+            <p class="value">Over 9000</p>
+          </li>
+          <li>
+            <p class="key">Challenges accepted</p>
+            <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+            <p class="value">Over 9000</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer col-sm-12">
+      <p>MADE WITH BY <span class="glyphicon glyphicon-heart"></span> TEAM CRYOGEN</p>
+    </div>
+  </div>
+</div>
