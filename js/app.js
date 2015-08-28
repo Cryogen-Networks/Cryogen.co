@@ -3,6 +3,9 @@ angular.module('cryogen', ['ngRoute'])
 	$routeProvider.when('/', {
 		templateUrl: 'views/home.html'
 	})
+	.when('/about', {
+		templateUrl: 'views/about.html'
+	})
 	.otherwise({	
 		templateUrl: 'views/404.html'
 	});
