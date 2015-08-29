@@ -1,9 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Tillana:800);
 
-body {
+html{
+ height:100%;
+ min-height:100%;
+ }
+div[ng-view]{
+ min-height:100%;
   background-image: url('/img/landscape_v7.png');
-  background-size cover 100%;
-  background-position: center;
+  background-size: cover;
+  background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
