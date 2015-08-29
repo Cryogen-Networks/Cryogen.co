@@ -6,7 +6,7 @@ html{
  }
 div[ng-view]{
  min-height:100%;
-  background-image: url('/img/landscape_v7.png');
+  background-image: url('../img/landscape_v7.png');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
