@@ -25,10 +25,25 @@ div[ng-view]{
   height: 100%;
   vertical-align: middle;
 }
-.logo img {
+.logo .center {
+  display: inline-block;
+  text-align: center;
   vertical-align: middle;
+}
+
+.logo .center img.logoImg
+{
+  margin: 0 auto;
+  display: block;
   height: 35rem;
 }
+.logo .center img.brickImg
+{
+  margin: 0 auto;
+  display: block;
+  height: 13rem;
+}
+
 .fof .logo h1 {
   font-size: 20rem;
   color: #000;
