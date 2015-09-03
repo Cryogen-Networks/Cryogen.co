@@ -1,9 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Tillana:800);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 html{
  height:100%;
  min-height:100%;
  }
+body{
+    font-family: 'Source Sans Pro';
+}
 div[ng-view]{
  min-height:100%;
   background-image: url('../img/landscape_v7.png');
@@ -67,7 +71,7 @@ div[ng-view]{
 .nav ul li {
   background-image: url('../img/brick.png');
   background-size: 100% 100%;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
   width: 100px;
   text-align: center;
   display: inline-block;
